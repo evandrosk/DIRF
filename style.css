@@ -1,0 +1,84 @@
+* {
+    font-size: 9px;
+    font-family: arial, helvetica, serif;
+}
+body {
+    margin: 0;
+}
+table {
+    width: 60%;
+    margin: 2px 20%;
+    border: 2px #000 solid;
+    border-collapse: collapse;
+}
+tr {
+    border: 1px #000 solid;
+}
+td {
+    padding: 2px 10px;
+}
+thead img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+thead .font-small {
+    font-size: 10px;
+}
+thead .small {
+    width: 5%;
+}
+tfoot tr td {
+    padding: 2px 10px;
+    border: 2px #000 solid;
+}
+p {
+    line-height: 0.6;
+}
+.justify {
+    text-align: justify;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.bold {
+    font-weight: bold;
+}
+.border-top {
+    border-top: 2px #000 solid;
+}
+.title {
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 2px;
+    border: 1px #000 solid;
+    border-top: 2px #000 solid;
+}
+.info {
+    font-size: 10px;
+    font-weight: normal;
+}
+.border {
+    border: 1px #000 solid;
+}
+.noborder {
+    border: none;
+}
+.nobordertop {
+    border-top: none;
+}
+.noborderfooter {
+    border-bottom: none;
+}
+@media print {
+    table {
+        width: 100%;
+        margin: 0;
+    }
+}
